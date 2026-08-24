@@ -1,0 +1,7 @@
+id,sku,name,brand,category,description,price,stock_quantity,color
+1,NK-001,Nike Dri-FIT T-Shirt,Nike,T-Shirt,Moisture-wicking athletic t-shirt,29.99,42,Black
+2,NK-002,Nike Sportswear T-Shirt,Nike,T-Shirt,Everyday cotton t-shirt,24.99,25,White
+3,AD-001,Adidas Essentials Hoodie,Adidas,Hoodie,Classic fleece hoodie,49.99,17,Gray
+4,AD-002,Adidas Runfalcon Shoes,Adidas,Shoes,Lightweight running shoes,69.99,12,Black
+5,LV-001,Levi's 501 Jeans,Levi's,Jeans,Classic straight-fit jeans,79.99,8,Blue
+6,PM-001,Puma Essentials T-Shirt,Puma,T-Shirt,Comfort cotton t-shirt,22.99,30,Red

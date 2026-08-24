@@ -1,0 +1,16 @@
+services:
+  backend:
+    build: ./backend
+    ports: ["8000:8000"]
+    environment:
+      LLM_PROVIDER: fallback
+      DATABASE_URL: sqlite:///./data/shop.db
+      OLLAMA_MODEL: llama3.2:3b
+      OLLAMA_URL: http://host.docker.internal:11434
+    volumes: [shop_data:/app/data]
+  frontend:
+    build: ./frontend
+    ports: ["5173:5173"]
+    depends_on: [backend]
+volumes:
+  shop_data:

@@ -1,0 +1,9 @@
+flowchart TD
+A[React + TypeScript] -->|POST /api/chat| B[FastAPI]
+B --> C[Guardrails]
+B --> D[LLM / Fallback Router]
+D --> E[Allow-listed Tool Registry]
+E --> F[(SQLite / Production DB)]
+E --> G[Audit Log]
+B --> H[Purchase Confirmation]
+H --> E

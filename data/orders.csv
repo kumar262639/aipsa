@@ -1,0 +1,3 @@
+id,customer_id,status,total_amount,tracking_number
+1001,1,Shipped,59.98,UPS-DEMO-1001
+1002,1,Processing,49.99,PENDING
